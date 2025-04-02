@@ -1,5 +1,4 @@
-# quantumComputerProject
-QUANTUM COMPUTERS
+
   _
  / \
 |   |    |  |      /\    |\  |  --+--   |  |  |\    /|
