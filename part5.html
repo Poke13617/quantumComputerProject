@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <title>Document</title>
+    <title>Similar Experiments</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
@@ -25,18 +25,21 @@
         </div>
     </nav>
    <!-- These divs will have 1/5 different Classes, those being introbox, 1/2W , 2/2W , Intro, Footer, or FW-->
-    <div class="introBox">Quantum Computers and How They Work</div> <!--Intro, the titlecard (This will show up covering the page, slowly fading away.)-->
-    <div class="point1_1/2W"></div>     <!--1/2  Width (content) This will be the start of the page, explaining quickly what a quantum computer is-->
-    <div class="2/2W"><img></div>     <!--2/2  Width (an image about a quantum computer) No extra info-->
-    <div class="fW">How Much Does a Quantum Computer Cost to Build?</div>       <!--Full Width(Fun fact + 3 sentence in-depth explanation)  There will be borders on the top and bottom of the site. This is also just before the next section-->
-    <div class="point2_1/2W"><img></div>     <!--1/2  Width (Nothing will be on the other side for now)-->
-    <div class="2/2W">The average quantum computer can cost from tens of millions to even billions of dollars as some of the parts such as qubits and cryogenic coolers cost up to millions depending on the quality.</div>     <!--2/2  Width. This will be text this time, it will zig zag for the content -->
-    <div class="fW"></div>       <!--Full Width, this is The last fun fact about them.-->
-    <div class="fW"></div>       <!--Full Width, more space for content-->
-    <div class="footerBox"></div><!--Footer, the bottom of the page, a place where the links to my sources will be. The site will not have a sticky menu on top, it will change it's state of visibility when the site is scrolled up.-->
-    <script>
+<div class="container">
+    <div class="introBox">Similar Experiments to Quantum Computing</div> <!--Intro-->
+    <div class="halfW">A similar experiment to quantum computing is the paradox of schroedinger's cat. Schroedinger's cat is an paradox made by putting toxic gas that could kill the animal. If nobody could confirm that the cat was alive or dead, there is the paradox that it could be both at the same time.</div>     <!--1/2  Width (content) This will be the start of the page, explaining quickly what a quantum computer is-->
+    <div class="halfW2"><img></div>     <!--2/2  Width (an image about a quantum computer) No extra info-->
+    
+    <div class="halfW2"><img></div>     <!--1/2  Width (Nothing will be on the other side for now)-->
+    
+    <div class="halfW">Another experiment similar to how a quantum computer functions is the paint can paradox. A paint can is set on a desk without a label nor any knowledge on what color it is. With this knowledge, it is technically every color at once.</div>     <!--2/2  Width. This will be text this time, it will zig zag for the content -->
+    <div class="fW1">The experiment is very similar to a paradox, taking both possible outcomes and putting them in at the same time, watching two separate outcomes of the same situation. This is a big breakthrough as normal computing devices can only handle a single outcome at a time.</div>       <!--Full Width(Fun fact + 3 sentence in-depth explanation)  There will be borders on the top and bottom of the site. This is also just before the next section-->
+    <div class="fW2">Paradoxes are puzzles that loop around because of a condition, such as a liar saying "this is a lie". This would meant that he both is and isn't telling the truth at the same time</div>       <!--Full Width, this is The last fun fact about them.-->
+    <div class="fW3"></div>       <!--Full Width, more space for content-->
+    <div class="footerBox">2025 M.C. , this website was made for educational purposes.</div><!--Footer, the bottom of the page, a place where the links to my sources will be. The site will not have a sticky menu on top, it will change it's state of visibility when the site is scrolled up.-->
+</div>   
+   <script>
         $( document ).ready(function(){
-        $(".introBox").css({"display":"flex", "justify-content":"center", "padding":"200px 0","color":"orange","font-size":"50px","font-style":"bold"})
         $(".introBox").animate({height: "100vh", width: "100vw", },"slow");
         $(".introBox").fadeOut(2000)
         
@@ -45,4 +48,5 @@
     </script>
     <script src="scripts/script.js"></script>
     </body>
+    <!--5 - What other experiments were like quantum computing-->
     </html>

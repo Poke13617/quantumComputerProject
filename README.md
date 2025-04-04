@@ -23,7 +23,7 @@
     -Quantum Computers are assembled on a chandelier-type format, hanging from the ceiling as it helps reduce the amount of vibrations that the Computer is picking up.
     -They were said to be a threat as they can determine everything that is to be said about life itself. It functions by not detecting whether a 1 or a 0 is processed, but what would happen if both were pressed. Google made a quantum computer chip named "Willow", this was a threat to any and all electronic devices. It could detect every single login, bank account, SSN, and any other personal information that was ever made. They shut it down as they wanted to make sure nobody had that kind of power. Quantum computers such as Willow can make computations in 5 minutes that would take a computer more than trillions of years.\
     
-
+    Images used are filed under Creative Commons. Creative commons allows the images to be under free use. These were found from Wikimedia Commons,Flickr, and likely a couple other sources
 
 
 
