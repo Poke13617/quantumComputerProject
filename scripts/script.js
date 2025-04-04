@@ -7,3 +7,4 @@ hamMenu.classList.toggle('active');
 offScreenMenu.classList.toggle('active')
 })
 /*end of the hamburger menu code*/
+var introBox = document.getElementById("introBox")
