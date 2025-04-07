@@ -93,9 +93,8 @@ nav{
     grid-column:2/2;
 
 }
-.fW1, .fW2{
+.fW1, .fW2, .fW3{
     width:100%;
-    height:75px;
     border-top: 5px solid black;
     font-size:30px;
     border-bottom:5px solid black;
@@ -124,4 +123,7 @@ justify-content:center;
     color:orange;
     font-size:50px;
     font-style:bold;
+}
+.fW1, .fW2, .fW3{
+    grid-column:1/1;
 }
