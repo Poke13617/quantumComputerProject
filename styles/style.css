@@ -79,18 +79,15 @@ nav{
 .halfW{
     font-size:25px;
     height:100px;
-
-    margin: 20px 20px 20px 20px;
-    padding:10px;
     grid-column:1/2;
+    box-sizing:border-box;
 
 }
-.halfW2{
+.halfW2, .halfW21{
     height:100px;
-
-    margin: 20px 20px 20px 20px;
-    padding:10px 10px 10px 10px;
+    font-size:25px;
     grid-column:2/2;
+    box-sizing:border-box;
 
 }
 .fW1, .fW2, .fW3{
@@ -98,23 +95,10 @@ nav{
     border-top: 5px solid black;
     font-size:30px;
     border-bottom:5px solid black;
-    margin:30px 30px 30px 30px
-}
-
-img{
-    height:225px;
-    width:225px;
-    float:right;
-
 }
 
 .container{
     display:grid;
-    
-
-}
-img, .halfW {
-justify-content:center;
 }
 .introBox{
     display:flex;
@@ -125,5 +109,5 @@ justify-content:center;
     font-style:bold;
 }
 .fW1, .fW2, .fW3{
-    grid-column:1/1;
+Margin-top:50px;
 }
