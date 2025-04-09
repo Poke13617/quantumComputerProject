@@ -76,38 +76,29 @@ nav{
     color:bisque;
 }
 /*End of the hamburger menu styles*/
-.halfW{
-    font-size:25px;
-    height:100px;
-    grid-column:1/2;
-    box-sizing:border-box;
-
-}
-.halfW2, .halfW21{
-    height:100px;
-    font-size:25px;
-    grid-column:2/2;
-    box-sizing:border-box;
-
+.halfW, .halfW2 {
+    width: 50%;
+    box-sizing: border-box; /* Includes padding and border in width calculation */
+    padding: 10px; /* Optional padding */
+    border: 1px solid #000; /* Optional border for visibility */
 }
 .fW1, .fW2, .fW3{
-    width:100%;
-    border-top: 5px solid black;
-    font-size:30px;
-    border-bottom:5px solid black;
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+    transform: none;        /* Resets any rotation */
+    writing-mode: horizontal-tb; /* Default text direction */
+    display: block;         /* Ensures elements stack as block elements */
+    margin: 10px 0;         /* Optional margin for spacing */
 }
 
 .container{
-    display:grid;
+    display:flex;
 }
 .introBox{
     display:flex;
     justify-content:center;
-    padding:200px 0;
+    padding:200px;
     color:orange;
     font-size:50px;
     font-style:bold;
-}
-.fW1, .fW2, .fW3{
-Margin-top:50px;
 }
