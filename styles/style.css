@@ -3,7 +3,8 @@ body{
     margin:0;
     padding:0;
     border:0;
-    background-color: rgb(120, 120, 120);
+    background-color:silver;
+    color:navy;
 }
 
 /* off-screen-menu*/
@@ -80,17 +81,30 @@ nav{
     width: 50%;
     box-sizing: border-box; /* Includes padding and border in width calculation */
     padding: 10px; /* Optional padding */
-    border: 1px solid #000; /* Optional border for visibility */
+    border: 3px solid #000; /* Optional border for visibility */
+    height:200px
 }
 .fW1, .fW2, .fW3{
     width: 100%;
     box-sizing: border-box; /* Ensures padding and border are included in the width */
     transform: none;        /* Resets any rotation */
     writing-mode: horizontal-tb; /* Default text direction */
-    display: block;         /* Ensures elements stack as block elements */
+    display:block;   
+    padding:10px;    /* Ensures elements stack as block elements */
     margin: 10px 0;         /* Optional margin for spacing */
+    
+    height:200px;
 }
-
+img{
+    height:150px;
+    width:150px;
+}
+.halfW{
+    float:left;
+}
+.halfW2{
+    float:right;
+}
 .container{
     display:flex;
 }
@@ -101,4 +115,10 @@ nav{
     color:orange;
     font-size:50px;
     font-style:bold;
+}
+.fW3{
+    margin:10px;
+}
+.footerBox{
+    margin:10px;
 }
